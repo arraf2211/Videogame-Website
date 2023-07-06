@@ -1,0 +1,34 @@
+.game-container{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    
+    z-index: -1;
+}
+
+
+
+.game-container >h1 {
+    color: #ECEBC9;
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.game-container.TLOU{
+    background: url('../../public/images/TheLastofUsPartII_20200624175117.jpg') center center/cover no-repeat;
+}
+
+.game-container.Ghost{
+    background: url('../../public/images/GhostofTsushima.jpg') center center/cover no-repeat;
+}
+
+.game-container.Elden{
+    background: url('../../public/images/Eldenringbow.png') center center/cover no-repeat;
+}

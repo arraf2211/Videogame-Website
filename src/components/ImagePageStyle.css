@@ -1,0 +1,62 @@
+.image-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    align-items: flex-start;
+    background-image: linear-gradient(#C4DEA4 ,#A7D489);
+
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    
+}
+
+.image-container >img{
+    height: 648px;
+    width: 1152px;
+    margin-left: 50px;
+    margin-top: 150px;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    position: sticky;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+}
+
+.btn-container .btn{
+    margin-bottom: 20px;
+}
+
+.fullPage{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#050505 ,#030414);
+    display: flex;
+}
+
+.fullPage .full{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 85%;
+    width: 85%;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+}
+
