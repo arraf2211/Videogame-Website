@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import '../ImagePageStyle.css'
-import NavBar from '../NavBar'
-import { Button } from '../Button'
+import ThreeDObject from '../ThreeDObject'
 
 const newTab=url=>{
     window.open(url)
@@ -14,8 +13,8 @@ function FullImage() {
     <>
         
         <div className='fullPage'>
-            <img className='full' src={`/images/${params.imageID}`}></img>
-            
+        <img className='full' src={`/images/${params.imageID}`}></img>
+            <ThreeDObject />
         </div>
     </>
     

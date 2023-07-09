@@ -43,14 +43,12 @@
     width: 100%;
     background-image: linear-gradient(#050505 ,#030414);
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fullPage .full{
     
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     height: 85%;
     width: 85%;
     object-fit: cover;
@@ -58,5 +56,16 @@
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    
 }
+
+.canvas{
+    z-index: 1;
+    position: absolute;
+    
+}
+
+
 
