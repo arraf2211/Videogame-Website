@@ -1,11 +1,7 @@
-import React from 'react';
-//import NavBar from './components/NavBar';
-import { BrowserRouter as Router, Routes ,Route} from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes ,Route, useLocation} from 'react-router-dom';
 import './App.css'; 
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Projects from './components/pages/Projects';
-import SignUp from './components/pages/SignUp';
 import GameTLOU from './components/pages/games/GameTLOU';
 import ImagePage from './components/pages/ImagePage';
 import FullImage from './components/pages/FullImage';
@@ -14,15 +10,16 @@ import GameElden from './components/pages/games/GameElden';
 
 
 function App() {
+  const {pathname} = useLocation();
+  useEffect(()=> {
+    window.scrollTo(0,0);
+  }, [pathname]);
+
   return (
-    <>
-    <Router>
-      
+    
+    
       <Routes>
         <Route path='/' exact Component={Home}/>
-        <Route path='/services' Component={Services}/>
-        <Route path='/projects' Component={Projects}/>
-        <Route path='/sign-up'  Component={SignUp}/>
         <Route path='/gameTheLastOfUs2' Component={GameTLOU}/>
         <Route path='gameGhostOfTsumia' Component={GameGhost}/>
         <Route path='gameEldenRing' Component={GameElden}/>
@@ -30,9 +27,6 @@ function App() {
         <Route path='image' Component={ImagePage}/>
         <Route path='fullImage/:imageID' Component={FullImage}/>
       </Routes>
-    </Router>
-      
-    </>
   );
 }
 
