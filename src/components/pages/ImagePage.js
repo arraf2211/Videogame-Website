@@ -18,8 +18,8 @@ function ImagePage() {
     <>
         <NavBar/>
         <div className='image-container'>
-            <img src={`/images/${params.imageID}`}>
-            </img>
+            
+            <img src={`/images/${params.imageID}`}></img>
             <div className='btn-container'>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={()=> newTab(`/fullImage/${params.imageID}`)}>
                     View image in new tab

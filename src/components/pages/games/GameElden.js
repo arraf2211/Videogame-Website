@@ -27,7 +27,24 @@ function GameElden() {
                       src='/images/Eldenringbow.png'
                       text='Bowing to the old gods'
                       label='Elden Ring'
-                      path='/image/Eldenringbow.png' />                      
+                      path='/image/Eldenringbow.png' />    
+                      <CardItem 
+                      src='/images/EldenRingAcademy.JPG'
+                      text='Raya Lucaria Academy'
+                      label='Elden Ring'
+                      path='/image/EldenRingAcademy.JPG' /> 
+                      <CardItem 
+                      src='/images/EldenRingCaelid.JPG'
+                      text='Caelid'
+                      label='Elden Ring'
+                      path='/image/EldenRingCaelid.JPG' />                
+                  </ul>
+                  <ul className='cards__items'>
+                      <CardItem 
+                      src='/images/EldenRingScenary.JPG'
+                      text='Liurnia'
+                      label='Elden Ring'
+                      path='/image/EldenRingScenary.JPG' />                   
                   </ul>
               </div>
           </div>

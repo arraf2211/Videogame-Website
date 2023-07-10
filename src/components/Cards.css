@@ -118,20 +118,22 @@
       display: flex;
       
     }
+    .cards__item {
+      margin-bottom: 2rem;
+      width: 350px;
+    }
   }
   
   @media only screen and (max-width: 1719px) {
     .cards__item {
       margin-bottom: 2rem;
-      width: 1000px;
+      width: 500px;
     }
   }
 
-  
-
-  @media only screen and (min-width: 1719px) {
+  @media only screen and (max-width: 1000px) {
     .cards__item {
       margin-bottom: 2rem;
-      width: 300px;
+      width: 250px;
     }
   }
