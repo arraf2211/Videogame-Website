@@ -8,9 +8,9 @@ let slideIndex = 0;
 
 const slides = [
   {url:"url('images/GhostofTsushima_20201125173308.jpg') center center/cover no-repeat" , index:0},
-  {url:"url('images/GhostofTsushima_20201126181141.jpg') center center/cover no-repeat", index:1},
+  {url:"url('images/EldenRingCaelid.JPG') center center/cover no-repeat", index:1},
   {url:"url('images/GhostofTsushima_20201206004209.jpg') center center/cover no-repeat" , index:2},
-  {url:"url('images/GhostofTsushima.jpg') center center/cover no-repeat" , index:3},
+  {url:"url('images/The Last of Us™ Part II_20200708165856.jpg') center center/cover no-repeat" , index:3},
   {url:"url('images/TheLastofUsPartII_20200624175117.jpg') center center/cover no-repeat" , index:4},
 ];
 

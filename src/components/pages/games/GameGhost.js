@@ -29,10 +29,12 @@ function GameGhost() {
                       path='/image/GhostofTsushima_20201125173308.jpg' />
 
                       <CardItem 
-                      src='/images/GhostofTsushima_20201126181141.jpg'
+                      src='/images/GhostofTsushima.jpg'
                       text=''
                       label='Ghost Of Tsusima'
-                      path='/image/GhostofTsushima_20201126181141.jpg' />
+                      path='/image/GhostofTsushima.jpg' />
+
+                      
 
                       <CardItem 
                       src='/images/GhostofTsushima_20201206004209.jpg'
@@ -40,11 +42,21 @@ function GameGhost() {
                       label='Ghost Of Tsusima'
                       path='/image/GhostofTsushima_20201206004209.jpg' />
 
+                      
+                      
+                  </ul>
+                  <ul className='cards__items'>
                       <CardItem 
-                      src='/images/GhostofTsushima.jpg'
+                      src='/images/Ghost of Tsushima_20210103134652.jpg'
                       text=''
                       label='Ghost Of Tsusima'
-                      path='/image/GhostofTsushima.jpg' />
+                      path='/image/Ghost of Tsushima_20210103134652.jpg' />
+
+                      <CardItem 
+                      src='/images/Ghost of Tsushima_20210107122314.jpg'
+                      text=''
+                      label='Ghost Of Tsusima'
+                      path='/image/Ghost of Tsushima_20210107122314.jpg' />
                       
                   </ul>
               </div>
