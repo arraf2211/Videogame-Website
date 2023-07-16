@@ -18,27 +18,26 @@ function GameGhost() {
             </div>
           </div >
 
-        <div className='cards'>
+        <div className='cards ghost'>
           <div className='cards__container'>
               <div className='cards__wrapper'>
                   <ul className='cards__items'>
                       <CardItem 
                       src='/images/GhostofTsushima_20201125173308.jpg'
-                      text=''
+                      text='Path to destiny'
                       label='Ghost Of Tsusima'
                       path='/image/GhostofTsushima_20201125173308.jpg' />
 
                       <CardItem 
                       src='/images/GhostofTsushima.jpg'
-                      text=''
+                      text='Wind'
                       label='Ghost Of Tsusima'
                       path='/image/GhostofTsushima.jpg' />
 
                       
-
                       <CardItem 
                       src='/images/GhostofTsushima_20201206004209.jpg'
-                      text=''
+                      text='Sunset'
                       label='Ghost Of Tsusima'
                       path='/image/GhostofTsushima_20201206004209.jpg' />
 
@@ -48,13 +47,13 @@ function GameGhost() {
                   <ul className='cards__items'>
                       <CardItem 
                       src='/images/Ghost of Tsushima_20210103134652.jpg'
-                      text=''
+                      text='Riding with unc'
                       label='Ghost Of Tsusima'
                       path='/image/Ghost of Tsushima_20210103134652.jpg' />
 
                       <CardItem 
                       src='/images/Ghost of Tsushima_20210107122314.jpg'
-                      text=''
+                      text='The Ghost'
                       label='Ghost Of Tsusima'
                       path='/image/Ghost of Tsushima_20210107122314.jpg' />
                       

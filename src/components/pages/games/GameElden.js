@@ -19,7 +19,7 @@ function GameElden() {
             </div>
           </div >
 
-        <div className='cards'>
+        <div className='cards elden'>
           <div className='cards__container'>
               <div className='cards__wrapper'>
                   <ul className='cards__items'>

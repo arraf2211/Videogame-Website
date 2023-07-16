@@ -19,31 +19,31 @@ function GameTLOU() {
             </div>
           </div >
 
-        <div className='cards'>
+        <div className='cards last'>
           <div className='cards__container'>
               <div className='cards__wrapper'>
                   <ul className='cards__items'>
                       <CardItem 
                       src='/images/The Last of Us™ Part II_20200622092602.jpg'
-                      text=''
+                      text='Playing as Joel for the last time'
                       label='The Last Of Us 2'
                       path='/image/The Last of Us™ Part II_20200622092602.jpg' />
 
                       <CardItem 
                       src='/images/The Last of Us™ Part II_20200622101049.jpg'
-                      text=''
+                      text='Snowy mountain tops'
                       label='The Last Of Us 2'
                       path='/image/The Last of Us™ Part II_20200622101049.jpg' />
 
                       <CardItem 
                       src='/images/The Last of Us™ Part II_20200628101939.jpg'
-                      text=''
+                      text='Wasteland'
                       label='The Last Of Us 2'
                       path='/image/The Last of Us™ Part II_20200628101939.jpg' />
 
                       <CardItem 
                       src='/images/The Last of Us™ Part II_20200707182609.jpg'
-                      text=''
+                      text='Destruction'
                       label='The Last Of Us 2'
                       path='/image/The Last of Us™ Part II_20200707182609.jpg' />
                       
@@ -51,12 +51,12 @@ function GameTLOU() {
                   <ul className='cards__items'>
                       <CardItem 
                       src='/images/The Last of Us™ Part II_20200707191110.jpg'
-                      text=''
+                      text='Peace?'
                       label='The Last Of Us 2'
                       path='/image/The Last of Us™ Part II_20200707191110.jpg' />
                       <CardItem 
                       src='/images/The Last of Us™ Part II_20200708165856.jpg'
-                      text=''
+                      text='God I love Joel'
                       label='The Last Of Us 2'
                       path='/image/The Last of Us™ Part II_20200708165856.jpg' />
                   </ul>

@@ -1,12 +1,24 @@
 .cards {
     padding: 4rem;
-    aspect-ratio: 900/600;
+    aspect-ratio: 900/500;
     width: 100%;
     background-image: url('./../../public/stacked-waves-haikei.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
+
+.cards .last{
+    background-image: url('./../../public/stacked-waves-haikei-Last.svg');
+}
+
+.cards .elden{
+    background-image: url('./../../public/stacked-waves-haikei-elden.svg');
+}
+
+.cards .ghost{
+    background-image: url('./../../public/stacked-waves-haikei-ghost.svg');
+}
   
   h1 {
     text-align: center;
@@ -30,8 +42,6 @@
   
   .cards__items {
     margin-bottom: 24px;
-    
-    
   }
   
   .cards__item {
