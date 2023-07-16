@@ -23,6 +23,8 @@ function Cards() {
                     text='The Last Of Us 2'
                     label='The Last Of Us 2'
                     path='/gameTheLastOfUs2' />
+                </ul>
+                <ul className='cards__items'>
                     <CardItem 
                     src='/images/Eldenringbow.png'
                     text='Elden Ring'

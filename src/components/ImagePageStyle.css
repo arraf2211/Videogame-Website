@@ -6,7 +6,11 @@
     justify-content: left;
 
     align-items: flex-start;
-    background-image: linear-gradient(#C4DEA4 ,#A7D489);
+    aspect-ratio: 900/600;
+    background-image: url('./../../public/stacked-waves-haikei.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     
@@ -60,6 +64,7 @@
     position: absolute;
     z-index: 2;
     
+    
 }
 
 .canvas{
@@ -74,19 +79,24 @@
         align-items: center;
         width: auto;
         height: auto;
+        
     }
 
     .image-container >img{
        margin-top: 50px;
+       margin-left: auto;
+       margin-right: auto;
     }
 
     .btn-container{
         margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .fullPage .full{
-        height: 75%;
-        width: 75%;
+        height: 648px ;
+        width: 1152px;
     }
 
 }
@@ -101,8 +111,8 @@
     }
 
     .fullPage .full{
-        height: 60%;
-        width: 60%;
+        height: 540px;
+        width: 864px;
     }
 }
 
@@ -111,13 +121,10 @@
         height: 243px;
         width: 432px;
      }
-     .btn-container{
-        margin-left: 50px;
-    }
 
     .fullPage .full{
-        height: 50%;
-        width: 50%;
+        height: 270px;
+        width: 480px;
     }
 }
 
@@ -125,15 +132,18 @@
     .image-container >img{
         height: 182.25px;
         width: 324px;
+        
+        
      }
-    .btn-container{
-        margin-top: 50px;
-    }
+    
 
     .fullPage .full{
-        height: auto;
-        width: auto;
+        height: 270px;
+        width: 480px;
+        
     }
+
+    
 }
 
 
