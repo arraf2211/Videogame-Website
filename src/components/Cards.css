@@ -2,22 +2,30 @@
     padding: 4rem;
     aspect-ratio: 900/500;
     width: 100%;
-    background-image: url('./../../public/stacked-waves-haikei.svg');
+    background-image: url('./../../public/waves/stacked-waves-haikei.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-.cards .last{
-    background-image: url('./../../public/stacked-waves-haikei-Last.svg');
+.cards.last{
+    background-image: url('./../../public/waves/stacked-waves-haikei-Last.svg');
 }
 
-.cards .elden{
-    background-image: url('./../../public/stacked-waves-haikei-elden.svg');
+.cards.elden{
+    background-image: url('./../../public/waves/stacked-waves-haikei-elden.svg');
 }
 
-.cards .ghost{
-    background-image: url('./../../public/stacked-waves-haikei-ghost.svg');
+.cards.ghost{
+    background-image: url('./../../public/waves/stacked-waves-haikei-ghost.svg');
+}
+
+.cards.GOW{
+  background-image: url('./../../public/waves/stacked-waves-haikei-GOW.svg');
+}
+
+.cards.Cyber{
+  background-image: url('./../../public/waves/stacked-waves-haikei-Cyber.svg');
 }
   
   h1 {

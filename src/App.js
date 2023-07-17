@@ -7,6 +7,8 @@ import ImagePage from './components/pages/ImagePage';
 import FullImage from './components/pages/FullImage';
 import GameGhost from './components/pages/games/GameGhost';
 import GameElden from './components/pages/games/GameElden';
+import GameGOW from './components/pages/games/GameGOW';
+import GameCyberPunk from './components/pages/games/GameCyberPunk';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path='/gameTheLastOfUs2' Component={GameTLOU}/>
         <Route path='gameGhostOfTsumia' Component={GameGhost}/>
         <Route path='gameEldenRing' Component={GameElden}/>
+        <Route path='gameGodOfWar' Component={GameGOW}/>
+        <Route path='gameCyberPunk' Component={GameCyberPunk}/>
         <Route path='image/:imageID' Component={ImagePage}/>
         <Route path='image' Component={ImagePage}/>
         <Route path='fullImage/:imageID' Component={FullImage}/>

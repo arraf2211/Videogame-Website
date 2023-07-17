@@ -23,13 +23,23 @@ function Cards() {
                     text='The Last Of Us 2'
                     label='The Last Of Us 2'
                     path='/gameTheLastOfUs2' />
-                </ul>
-                <ul className='cards__items'>
                     <CardItem 
                     src='/images/Eldenringbow.png'
                     text='Elden Ring'
                     label='Elden Ring'
                     path='/gameEldenRing' />
+                </ul>
+                <ul className='cards__items'>
+                <CardItem 
+                    src='/images/Dogs.JPG'
+                    text='God Of War'
+                    label='God Of War'
+                    path='/gameGodOfWar' />
+                    <CardItem 
+                    src='/images/V_on_tank.JPG'
+                    text='CyberPunk 2077'
+                    label='CyberPunk 2077'
+                    path='/gameCyberPunk' />
                 </ul>
             </div>
         </div>

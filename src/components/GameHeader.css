@@ -32,3 +32,11 @@
 .game-container.Elden{
     background: url('../../public/images/Eldenringbow.png') center center/cover no-repeat;
 }
+
+.game-container.GOW{
+    background: url('../../public/images/Dogs.JPG') center center/cover no-repeat;
+}
+
+.game-container.Cyber{
+    background: url('../../public/images/V_on_tank.JPG') center center/cover no-repeat;
+}
