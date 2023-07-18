@@ -47,8 +47,9 @@
 
 .btn--arrow--left{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     color: #A7D489;
     cursor: pointer;
     border-radius: .25rem;
@@ -60,8 +61,9 @@
 
 .btn--arrow--right{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
     color: #A7D489;
     cursor: pointer;
     border-radius: .25rem;

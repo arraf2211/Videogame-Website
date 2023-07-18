@@ -25,7 +25,9 @@ function CardItem(props) {
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{duration:0.5, delay:0.25}}>
+                transition={{duration:0.5, delay:0.25}}
+                
+                whileTap={{scale:0.8}}>
 
                 <Link className='cards__item__link' to={props.path}>
                     <figure className='cards__item__pic-wrap' data-category={props.label}>

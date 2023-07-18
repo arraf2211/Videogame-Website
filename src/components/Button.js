@@ -1,6 +1,6 @@
 import React from 'react';
 import './Button.css';
-import { Link} from 'react-router-dom';
+import { motion, useInView, useAnimation } from 'framer-motion'
 
 const STYLES = ['btn--primary' , 'btn--outline' , 'btn--arrow--left' , 'btn--arrow--right'];
 const SIZES = ['btn--medium' , 'btn--large'];
@@ -17,13 +17,13 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
     
     return(
-        <div className='btn-mobile'>
-            <button
+        <div  className='btn-mobile' >
+            <motion.button whileTap={{ scale: 0.8}}
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
                 type={type}>
                     {children}
-            </button>
+            </motion.button>
         </div>
     )
 };

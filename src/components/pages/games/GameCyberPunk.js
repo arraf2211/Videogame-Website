@@ -35,6 +35,13 @@ function GameCyberPunk() {
                         path='/image/V_on_tank.jpg' />
   
                     </ul>
+                    <ul className='cards__items'>
+                        <CardItem 
+                        src='/images/nightCity.jpg'
+                        text='Late Night in Night City'
+                        label='CyberPunk 2077'
+                        path='/image/nightCity.jpg' />
+                    </ul>
                     
                 </div>
             </div>
