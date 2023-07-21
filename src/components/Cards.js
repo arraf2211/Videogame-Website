@@ -9,8 +9,6 @@ function Cards() {
     <div  className='cards'>
         <h1>Pictures taken from the Games below</h1>
         <div  className='cards__container'>
-            
-            
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem 

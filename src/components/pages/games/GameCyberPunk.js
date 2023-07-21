@@ -4,6 +4,7 @@ import Footer from '../../Footer'
 import '../../GameHeader.css';
 import { Button } from '../../Button';
 import { useNavigate } from 'react-router-dom';
+import ReviewSection from '../../ReviewSection';
 
 function GameCyberPunk() {
     const history = useNavigate()
@@ -16,9 +17,17 @@ function GameCyberPunk() {
                     Home <i className='fa-solid fa-home'/>
                     </Button>
               </div>
-            </div >
+          </div >
+
+            
+          
   
           <div className='cards Cyber'>
+            <ul className='review__CardLists'>
+                <ReviewSection
+                header='Cyberpunk Review'
+                text='Really fun great game etc etc'/>
+                </ul>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
@@ -33,6 +42,14 @@ function GameCyberPunk() {
                         text='Tank on Tank'
                         label='CyberPunk 2077'
                         path='/image/V_on_tank.jpg' />
+  
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem 
+                        src='/images/nightCity.jpg'
+                        text='Late Night in Night City'
+                        label='CyberPunk 2077'
+                        path='/image/nightCity.jpg' />
   
                     </ul>
                     
