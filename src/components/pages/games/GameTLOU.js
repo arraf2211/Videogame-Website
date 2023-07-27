@@ -13,7 +13,7 @@ function GameTLOU() {
     <>
         <div >
             <div className='game-container TLOU' >
-                <h1 >LAST OF US 2</h1>
+                <h1 >The Last Of Us 2</h1>
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--medium' onClick={()=> history(-1)}>
                   Home <i className='fa-solid fa-home'/>
                   </Button>

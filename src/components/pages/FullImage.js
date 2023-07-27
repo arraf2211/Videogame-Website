@@ -14,7 +14,7 @@ function FullImage() {
         
         <div className='fullPage' >
           <img className='full' src={`/images/${params.imageID}`} ></img>
-          <ThreeDObject />
+          <ThreeDObject /> 
           
 
         </div>

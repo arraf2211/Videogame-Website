@@ -53,9 +53,9 @@
 }
 
 .fullPage .full{
-    
-    height: 85%;
-    width: 85%;
+    max-width: 100% ;
+    height: auto;
+    width: auto;
     object-fit: cover;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
