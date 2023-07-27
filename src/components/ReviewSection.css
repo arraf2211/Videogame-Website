@@ -24,6 +24,7 @@
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 .review__CardLists{
@@ -40,4 +41,18 @@
 .review_card_text{
     text-align: left;
     font-size: 20px;
+    
 }
+
+
+  @media only screen and (max-width:900px) {
+    .review__CardLists{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review_cards{
+      margin-bottom: 2rem;
+      width: 250px;
+    }
+  }

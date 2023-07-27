@@ -25,8 +25,20 @@ function GameCyberPunk() {
           <div className='cards Cyber'>
             <ul className='review__CardLists'>
                 <ReviewSection
-                header='Cyberpunk Review'
-                text='Really fun great game etc etc'/>
+                header='Review'
+                text='Had fun playing with this game, the combat and the story was great as well. 
+                The characters were exceptional as well and felt real'/>
+                <ReviewSection
+                header='Story'
+                text='Had fun playing with this game, the combat and the story was great as well. 
+                The characters were exceptional as well and felt real'/>
+                <ReviewSection
+                header='Combat'
+                text='Had fun playing with this game, the combat and the story was great as well. 
+                The characters were exceptional as well and felt real'/>
+                <ReviewSection
+                header='Score'
+                text='9/10'/>
                 </ul>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
