@@ -43,6 +43,6 @@
 
 @media only screen and (max-width:500px) {
     .game-container >h1 {
-        font-size: 90px;
+        font-size: 80px;
     }
 }
