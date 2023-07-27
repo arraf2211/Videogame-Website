@@ -10,8 +10,8 @@ let slideIndex = 0;
 const slides = [
   {url:"url('images/GhostofTsushima_20201125173308.jpg') center center/cover no-repeat" , index:0},
   {url:"url('images/EldenRingCaelid.JPG') center center/cover no-repeat", index:1},
-  {url:"url('images/nightCity.jpg') center center/cover no-repeat" , index:2},
-  {url:"url('images/WithBear.jpg') center center/cover no-repeat" , index:3},
+  {url:"url('images/nightCity.JPG') center center/cover no-repeat" , index:2},
+  {url:"url('images/WithBear.JPG') center center/cover no-repeat" , index:3},
   {url:"url('images/TheLastofUsPartII_20200624175117.jpg') center center/cover no-repeat" , index:4},
 ];
 

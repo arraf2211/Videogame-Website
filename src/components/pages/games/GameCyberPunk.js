@@ -44,24 +44,24 @@ function GameCyberPunk() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem 
-                        src='/images/Samurai Rock.jpg'
+                        src='/images/Samurai Rock.JPG'
                         text='Rockstar'
                         label='CyberPunk 2077'
-                        path='/image/Samurai Rock.jpg' />
+                        path='/image/Samurai Rock.JPG' />
   
                         <CardItem 
-                        src='/images/V_on_tank.jpg'
+                        src='/images/V_on_tank.JPG'
                         text='Tank on Tank'
                         label='CyberPunk 2077'
-                        path='/image/V_on_tank.jpg' />
+                        path='/image/V_on_tank.JPG' />
   
                     </ul>
                     <ul className='cards__items'>
                         <CardItem 
-                        src='/images/nightCity.jpg'
+                        src='/images/nightCity.JPG'
                         text='Late Night in Night City'
                         label='CyberPunk 2077'
-                        path='/image/nightCity.jpg' />
+                        path='/image/nightCity.JPG' />
                     </ul>
                     
                 </div>
