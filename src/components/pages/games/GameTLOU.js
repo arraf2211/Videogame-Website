@@ -4,6 +4,7 @@ import Footer from '../../Footer'
 import '../../GameHeader.css';
 import { Button } from '../../Button';
 import { useNavigate } from 'react-router-dom';
+import ReviewSection from '../../ReviewSection';
 
 function GameTLOU() {
   const history = useNavigate()
@@ -20,6 +21,23 @@ function GameTLOU() {
           </div >
 
         <div className='cards last'>
+          <ul className='review__CardLists'>
+                  <ReviewSection
+                  header='Review'
+                  text='Had fun playing with this game, the combat and the story was great as well. 
+                  The characters were exceptional as well and felt real'/>
+                  <ReviewSection
+                  header='Story'
+                  text='Had fun playing with this game, the combat and the story was great as well. 
+                  The characters were exceptional as well and felt real'/>
+                  <ReviewSection
+                  header='Combat'
+                  text='Had fun playing with this game, the combat and the story was great as well. 
+                  The characters were exceptional as well and felt real'/>
+                  <ReviewSection
+                  header='Score'
+                  text='9/10'/>
+            </ul>
           <div className='cards__container'>
               <div className='cards__wrapper'>
                   <ul className='cards__items'>
