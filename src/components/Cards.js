@@ -30,8 +30,8 @@ function Cards() {
                 <ul className='cards__items'>
                 <CardItem 
                     src='/images/Dogs.JPG'
-                    text='God Of War'
-                    label='God Of War'
+                    text='God Of War Ragnarok'
+                    label='God Of War Ragnarok'
                     path='/gameGodOfWar' />
                     <CardItem 
                     src='/images/V_on_tank.JPG'

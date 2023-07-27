@@ -62,7 +62,6 @@ function GameCyberPunk() {
                         text='Late Night in Night City'
                         label='CyberPunk 2077'
                         path='/image/nightCity.jpg' />
-  
                     </ul>
                     
                 </div>

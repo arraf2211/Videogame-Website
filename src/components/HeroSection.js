@@ -1,7 +1,8 @@
-import React from 'react';
+import React , {useEffect, useRef} from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
 import '../App.css';
+import { motion, useInView, useAnimation } from 'framer-motion'
 
 
 let slideIndex = 0;
@@ -15,11 +16,32 @@ const slides = [
 ];
 
 function HeroSection() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, {once:true});
+
+  const mainControls = useAnimation();
+
+  useEffect(()=>{
+    if(isInView){
+      mainControls.start("visible");
+    }
+  }, [isInView]);
+
   return (
     <div>
       
         <div className='hero-container'>
-            <h1>WELCOME</h1>
+            <motion.h1 ref={ref}
+              variants={{
+                hidden: {opacity: 0, y:75},
+                visible: {opacity:1, y:0}
+              }}
+              initial="hidden"
+              animate={mainControls}
+              transition={{duration:0.5, ease:"easeIn"}}>  
+              
+              WELCOME</motion.h1>
+              
               <Button Button className='btns' buttonStyle='btn--arrow--left' buttonSize='btn--large' onClick={prevImage}>
                 <i className='fa-solid fa-arrow-left'/>
               </Button>
