@@ -54,6 +54,7 @@
 
 .fullPage .full{
     max-width: 100% ;
+    max-height: 80%;
     height: auto;
     width: auto;
     object-fit: cover;
@@ -72,6 +73,8 @@
     position: absolute;
     
 }
+
+
 
 @media screen and (max-width:1700px){
     .image-container{
@@ -135,11 +138,7 @@
      }
     
 
-    .fullPage .full{
-        height: 270px;
-        width: 480px;
-        
-    }
+    
 
     
 }

@@ -24,19 +24,10 @@ function GameElden() {
           <ul className='review__CardLists'>
                     <ReviewSection
                     header='Review'
-                    text='Had fun playing with this game, the combat and the story was great as well. 
-                    The characters were exceptional as well and felt real'/>
-                    <ReviewSection
-                    header='Story'
-                    text='Had fun playing with this game, the combat and the story was great as well. 
-                    The characters were exceptional as well and felt real'/>
-                    <ReviewSection
-                    header='Combat'
-                    text='Had fun playing with this game, the combat and the story was great as well. 
-                    The characters were exceptional as well and felt real'/>
+                    text='Coming Soon ....'/>
                     <ReviewSection
                     header='Score'
-                    text='9/10'/>
+                    text='Will be given once game is finished'/>
               </ul>
           <div className='cards__container'>
               <div className='cards__wrapper'>
@@ -55,14 +46,36 @@ function GameElden() {
                       src='/images/EldenRingCaelid.JPG'
                       text='Caelid'
                       label='Elden Ring'
-                      path='/image/EldenRingCaelid.JPG' />                
-                  </ul>
-                  <ul className='cards__items'>
+                      path='/image/EldenRingCaelid.JPG' />   
                       <CardItem 
                       src='/images/EldenRingScenary.JPG'
                       text='Liurnia'
                       label='Elden Ring'
-                      path='/image/EldenRingScenary.JPG' />                   
+                      path='/image/EldenRingScenary.JPG' />              
+                  </ul>
+                  <ul className='cards__items'>
+                      <CardItem 
+                      src='/images/CaelidHead.jpeg'
+                      text='Caelids Head'
+                      label='Elden Ring'
+                      path='/image/CaelidHead.jpeg' />  
+                      <CardItem 
+                      src='/images/EternalCity.jpeg'
+                      text='Nokorn The Eternal City'
+                      label='Elden Ring'
+                      path='/image/EternalCity.jpeg' />
+                      <CardItem 
+                      src='/images/TheCrator.jpeg'
+                      text='Crator city'
+                      label='Elden Ring'
+                      path='/image/TheCrator.jpeg' />                   
+                  </ul>
+                  <ul className='cards__items'>
+                    <CardItem 
+                        src='/images/ErdTreesLight.JPG'
+                        text='Erd Trees Light shines everywhere'
+                        label='Elden Ring'
+                        path='/image/ErdTreesLight.JPG' />                
                   </ul>
               </div>
           </div>

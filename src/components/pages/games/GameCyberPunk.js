@@ -26,19 +26,10 @@ function GameCyberPunk() {
             <ul className='review__CardLists'>
                 <ReviewSection
                 header='Review'
-                text='Had fun playing with this game, the combat and the story was great as well. 
-                The characters were exceptional as well and felt real'/>
-                <ReviewSection
-                header='Story'
-                text='Had fun playing with this game, the combat and the story was great as well. 
-                The characters were exceptional as well and felt real'/>
-                <ReviewSection
-                header='Combat'
-                text='Had fun playing with this game, the combat and the story was great as well. 
-                The characters were exceptional as well and felt real'/>
+                text='Coming Soon ...'/>
                 <ReviewSection
                 header='Score'
-                text='9/10'/>
+                text='8/10'/>
                 </ul>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
@@ -54,14 +45,20 @@ function GameCyberPunk() {
                         text='Tank on Tank'
                         label='CyberPunk 2077'
                         path='/image/V_on_tank.JPG' />
-  
-                    </ul>
-                    <ul className='cards__items'>
+                        
                         <CardItem 
                         src='/images/nightCity.JPG'
                         text='Late Night in Night City'
                         label='CyberPunk 2077'
                         path='/image/nightCity.JPG' />
+  
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem 
+                        src='/images/WithSliverhand.JPG'
+                        text='Chilling with SliverHand'
+                        label='CyberPunk 2077'
+                        path='/image/WithSliverhand.JPG' />
                     </ul>
                     
                 </div>

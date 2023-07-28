@@ -23,19 +23,10 @@ function GameGhost() {
           <ul className='review__CardLists'>
                     <ReviewSection
                     header='Review'
-                    text='Had fun playing with this game, the combat and the story was great as well. 
-                    The characters were exceptional as well and felt real'/>
-                    <ReviewSection
-                    header='Story'
-                    text='Had fun playing with this game, the combat and the story was great as well. 
-                    The characters were exceptional as well and felt real'/>
-                    <ReviewSection
-                    header='Combat'
-                    text='Had fun playing with this game, the combat and the story was great as well. 
-                    The characters were exceptional as well and felt real'/>
+                    text='Coming Soon ...'/>
                     <ReviewSection
                     header='Score'
-                    text='9/10'/>
+                    text='7.5/10'/>
               </ul>
           <div className='cards__container'>
               <div className='cards__wrapper'>
